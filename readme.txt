@@ -1,8 +1,5 @@
 === FX-CurrencyConverter Plugin for Wordpress ===
 Contributors: websmokers
-Plugin URI: http://www.proloy.me/projects/wordpress-plugins/fx-currencyconverter-plugin-for-wordpress/
-Author: Proloy Chakroborty
-Author URI: http://www.proloy.me/
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5675100
 Tags: Currency, converter, plugin, foreign, exchange, rates
 Requires at least: 2.5

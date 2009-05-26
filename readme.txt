@@ -12,7 +12,7 @@ Simple lightweight currency converter plugin for Wordpress.
 
 Simple lightweight currency converter plugin for Wordpress that allows your visitors to search foreign exchange rates between almost any world currencies and displays live interbank rates via a popup. Simple shortcode allows the converter to be added to posts and pages, and a sidebar widget is included. For more advanced users the converter can be styled using the plugins own css in the settings menu.
 
-Generate an income stream - <a href="http://fx-foreignexchange.com/become_an_affiliate.php">become an affiliate</a> and earn money from your visitors currency calculations.
+Generate an income stream - <a href="http://fx-foreignexchange.com/become_an_affiliate.php" target="_blank">become an affiliate</a> and earn money from your visitors currency calculations.
 
 = Usage =
 
@@ -25,20 +25,23 @@ Add "FX-CurrencyConverter" Widget to your sidebar from widget panel.
 Widget CSS is in 2 parts. One for sidebar widget and one for pages/post.
 
 Post/Page Widget CSS:
+<ul>
+    <li>zdgccwrapper: &lt;div&gt; class. This is the main wrapper of widget, which is around the whole widget</li>
+    <li>zdgccwrapper h3: Widget Header is placed in a &lt;h3&gt; tag.</li>
+    <li>zdgccbox: &lt;div&gt; class to hold form fields below widget header</li>
+    <li>amountlabel: &lt;div&gt; class for "Amount" text</li>
+    <li>amountinput: &lt;input&gt; class for amount textfield</li>
+    <li>getrate: &lt;div&gt; class. "Get Rate" button &lt;input&gt; is inside this &lt;div&gt;</li>
+</ul>
 
-    * zdgccwrapper: <div> class. This is the main wrapper of widget, which is around the whole widget
-    * zdgccwrapper h3: Widget Header is placed in a <h3> tag.
-    * zdgccbox: <div> class to hold form fields below widget header
-    * amountlabel: <div> class for “Amount” text
-    * amountinput: <input> class for amount textfield
-    * getrate: <div> class. “Get Rate” button <nput> is inside this <div>
 
 Sidebar Widget CSS:
-
-    * zdgbox: <div> class. The form is inside this <div>
-    * amountlabel: <div> class for “Amount” text
-    * amountinput: <input> class for amount textfield
-    * getrate: <div> class. “Get Rate” button <nput> is inside this <div>
+<ul>
+    <li>zdgbox: &lt;div&gt; class. The form is inside this &lt;div&gt;</li>
+    <li>amountlabel: &lt;div&gt; class for "Amount" text</li>
+    <li>amountinput: &lt;input&gt; class for amount textfield</li>
+    <li>getrate: &lt;div&gt; class. "Get Rate" button &lt;input&gt; is inside this &lt;div&gt;</li>
+</ul>
 
 
 == Installation ==

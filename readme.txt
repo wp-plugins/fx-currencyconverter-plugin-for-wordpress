@@ -59,9 +59,9 @@ PHP 5.1.x
 
 == Screenshots ==
 
-1. screenshot-1.jpg
-2. screenshot-2.jpg
-3. screenshot-3.jpg
+1. Widget Preview
+2. Plugin Admin Page
+3. Widget Panel
 
 == Support ==
 
